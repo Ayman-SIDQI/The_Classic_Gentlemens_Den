@@ -4,7 +4,7 @@ A fun 1-hour challenge to create a simple website for a barbershop that includes
 # The Challenge
 Built a responsive barbershop website featuring:
 
-Three.js animated background with floating scissors model
+Three.js animated background with floating Chair model
 Modern UI with dramatic typography
 Responsive booking form
 Time constraint: One coding session
