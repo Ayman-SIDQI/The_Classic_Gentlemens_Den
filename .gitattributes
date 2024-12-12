@@ -1,2 +1,0 @@
-echo "*.js linguist-language=JavaScript" > .gitattributes
-echo "*.css linguist-language=CSS" >> .gitattributes
