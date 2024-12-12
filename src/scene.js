@@ -74,7 +74,7 @@ export function initScene() {
 
     // Update loaders to use loadingManager
     const exrLoader = new EXRLoader(loadingManager);
-    exrLoader.load('/neon_photostudio_4k.exr', function(texture) {
+    exrLoader.load('/The_Classic_Gentlemens_Den/neon_photostudio_4k.exr', function(texture) {
         texture.mapping = THREE.EquirectangularReflectionMapping;
         scene.background = texture;
         scene.environment = texture;
@@ -112,7 +112,7 @@ export function initScene() {
     // Update GLTF loader to use loadingManager
     const loader = new GLTFLoader(loadingManager);
     loader.load(
-        '/old_barber_chair/scene.gltf',
+        '/The_Classic_Gentlemens_Den/old_barber_chair/scene.gltf',
         function (gltf) {
             const model = gltf.scene;
             
